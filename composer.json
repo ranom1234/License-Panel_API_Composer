@@ -1,0 +1,21 @@
+{
+    "name": "license-panel/api",
+    "description": "License-Panel API",
+    "type": "project",
+    "homepage": "https://license-panel.com/",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LicensePanel\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+
+}
